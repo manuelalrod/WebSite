@@ -1,0 +1,211 @@
+/* Estilos para las tarjetas */
+
+.pago{
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  background: radial-gradient(circle at bottom, #FFFFFF 0%, rgba(186, 173, 232, 0.7) 10%, #8C74E5 25%, #1A1650 50%, #080710 60%, #080710 100%);
+}
+
+.containers {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px;
+    
+  }
+  
+  .shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 72%; 
+
+  }
+  
+  .cart-items {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
+  .item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  
+  .item-details h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .item-details p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity button {
+    background: #ddd;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantity button:hover {
+    background: #bbb;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para el dropdown de país */
+  .country-dropdown {
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  select {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  select:focus {
+    outline: none;
+    border: 2px solid #7a68bd;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  /* Estilos para la sección de resumen de la orden */
+  .order-summary {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-summary span {
+    font-size: 20px;
+    color: #7a68bd;
+  }
+  
+  /* Botones de Checkout */
+  .checkout-buttons {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+  }
+  
+  .checkout-btn {
+    background: #7a68bd;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .checkout-btn:hover {
+    background: #1A1650;
+    transform: scale(1.05);
+  }
+  
+  .secure {
+    background: #8C74E5;
+  }
+  
+  .secure:hover {
+    background: #1A1650;
+  }
+  
+  /* Estilos para la tarjeta adicional */
+  .additional-card {
+    width: 300px; /* Ancho fijo de la tarjeta adicional */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 679px;
+  }
+  
+  .additional-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .additional-card h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .additional-card p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  .additional-card .checkout-btn {
+    background-color: #7a68bd;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .additional-card .checkout-btn:hover {
+    background-color: #1A1650;
+  }

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Sources/style.css">
+
+    <title>Inicio</title>
+</head>
+
+
+<!-- Seccion Navbar -->
+<header>
+    <nav class="navbar section-content">
+        <img class="logo" src="../Sources/images/LOGO.svg">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="Index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="Catalogo.html" class="nav-link">Catalog</a>
+            </li>
+            <li class="nav-item">
+                <a href="carrito.html" class="nav-link">Shopping Cart</a>
+            </li>
+            <li class="nav-item">
+              <a href="profile.html" class="nav-link">Profile</a>
+          </li>  
+        </ul>
+        <button onclick="redirigir()" class="btnLogin-popup">Login</button>  
+    </nav>
+</header>
+
+<!-- Primera Seccion -->
+    <section class="Seccion-1">
+        <div class="section-content">
+            <div class="Detail">
+                <h2 class="Title">Upgrade your experiences</h2>
+                <p class="subtitle">At Solaris, we are committed to delivering products that not only meet but exceed your expectations. 
+                With our cutting-edge technology and attention to detail, each product is crafted to offer exceptional quality and performance.</p>
+                
+                <div class="buttons">
+                    <a href="#" class="button order-now">Order Now</a>
+                    <a href="#" class="button more">See More</a>
+                </div>
+            </div>
+
+            <!-- Cartas -->
+
+         <div class="cards-container">
+            <div class="card standards">
+                <p class="plan-title">Apple</p>
+                <h2 class="plan-name">AirPots</h2>
+                <img src="../Sources/images/2.png">
+            </div>
+
+            <div class="card standard-plus">
+                <p class="plan-title">Apple</p>
+                <h2 class="plan-name">Airpods Max</h2>
+                <img src="../Sources/images/1.png">
+            </div>
+
+            <div class="card premium">
+                <p class="plan-title">Xiaomi</p>
+                <h2 class="plan-name">Watch 2</h2>
+                <img src="../Sources/images/3.png">
+            </div>
+
+            <div class="card standard">
+                <p class="plan-title">HyperX</p>
+                <h2 class="plan-name">QuadCast</h2>
+                <img src="../Sources/images/4.png">
+            </div>
+        </div> 
+
+        </div>
+    </section>
+
+<!--Seccion Top Seller-->
+<section class="Seccion-2">
+    <div class="section-content">
+        <div class="section-Seller">
+            <h1 class="section-title">Our Amazing</h1>
+            <h2 class="section-title">Top sellers</h2>
+        </div>
+
+         <div class="cont-card">
+            <div class="cards">
+                <img src="../Sources/images/8.gif" alt="">
+                <div class="card-cont">
+                    <h1>Apple Watch Ultra 2</h1>
+                    <p>It's the best sports watch for many other activities, including skiing,
+                        snowboarding, rowing, and golf.</p>
+                    <a href="Catalogo.html" class="button-card">Read more</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="../Sources/images/6.gif" alt="">
+                <div class="card-cont">
+                    <h1>AirPods Pro</h1>
+                    <p>Pro level Active Noise Cancellation, Adaptive Audio, Ambient mode, personalized Spatial Audio, etc.</p>
+                    <a href="Catalogo.html" class="button-card">Read more</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="../Sources/images/7.gif" alt="">
+                <div class="card-cont">
+                    <h1>X100s</h1>
+                    <p>The Vivo X100 is a high-end phone that stands out for its performance and its 
+                        photographic proposal</p>
+                    <a href="Catalogo.html" class="button-card">Read more</a>
+                </div>
+            </div>
+
+        </div> 
+    </div>
+</section>
+
+<section class="Seccion-3">
+<h1 class="titulo">Categoria</h1>
+		<div class="categorias" id="categorias">
+			<div class="categoria">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M20 12v-1.707c0-4.442-3.479-8.161-7.755-8.29-2.204-.051-4.251.736-5.816 2.256A7.933 7.933 0 0 0 4 10v2c-1.103 0-2 .897-2 2v4c0 1.103.897 2 2 2h2V10a5.95 5.95 0 0 1 1.821-4.306 5.977 5.977 0 0 1 4.363-1.691C15.392 4.099 18 6.921 18 10.293V20h2c1.103 0 2-.897 2-2v-4c0-1.103-.897-2-2-2z"></path><path d="M7 12h2v8H7zm8 0h2v8h-2z"></path></svg>
+				<p>Earphones</p>
+			</div>
+			<div class="categoria">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M18 8c0-.909-.613-1.67-1.445-1.912l-1.31-3.443A1 1 0 0 0 14.311 2H8.689a1 1 0 0 0-.934.645l-1.31 3.443A1.996 1.996 0 0 0 5 8v8c0 .909.613 1.67 1.445 1.912l1.31 3.443a1 1 0 0 0 .934.645h5.621c.415 0 .787-.257.935-.645l1.31-3.443A1.996 1.996 0 0 0 18 16v-2h1v-4h-1V8zm-1.998 8H7V8h9l.002 8z"></path></svg>
+				<p>Smartwatch</p>
+			</div>
+			<div class="categoria">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path></svg>
+				<p>Phones</p>
+			</div>
+			<div class="categoria">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M16 12V6c0-2.217-1.785-4.021-3.979-4.021a.933.933 0 0 0-.209.025A4.006 4.006 0 0 0 8 6v6c0 2.206 1.794 4 4 4s4-1.794 4-4zm-6 0V6c0-1.103.897-2 2-2a.89.89 0 0 0 .163-.015C13.188 4.06 14 4.935 14 6v6c0 1.103-.897 2-2 2s-2-.897-2-2z"></path><path d="M6 12H4c0 4.072 3.061 7.436 7 7.931V22h2v-2.069c3.939-.495 7-3.858 7-7.931h-2c0 3.309-2.691 6-6 6s-6-2.691-6-6z"></path></svg>
+				<p>Microphones</p>
+			</div>
+		</div>
+
+        <hr>
+
+		<div class="carousel">
+        <div class="carrusel-list" id="carrusel-list">
+
+            <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="carrusel-track" id="track">
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/1.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/3.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/4.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/2.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/1.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/3.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/4.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/2.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel">
+                    <div>
+                        <div class="imgs">
+                            <img class="om" src="../Sources/images/10.png" alt="logo"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M5 22h14c1.103 0 2-.897 2-2V9a1 1 0 0 0-1-1h-3V7c0-2.757-2.243-5-5-5S7 4.243 7 7v1H4a1 1 0 0 0-1 1v11c0 1.103.897 2 2 2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-4 3h2v2h2v-2h6v2h2v-2h2l.002 10H5V10z"></path></svg>
+                            <picture>
+                                <img class="imagen" src="../Sources/images/1.png" alt="imagen">
+                           </picture>
+                           <div class="price">
+                                <span class="price_num">$99.00</span>
+                                <span class="price_letter">Earphones</span>
+                            </div>
+                            <div class="button">
+                                <div class="button-layer"></div>
+                                <button>Add To Cart</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                    class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    
+</section>
+
+<!--Footer sección-->
+<footer class="footer-section">
+    <div class="section-content">
+        <p class="copyright-text">© 2024 Solaris Shop</p>
+
+        <div class="social-link-list">
+            <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 253, 253, 1);transform: msFilter"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg></a>
+            <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
+            <a href="#" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"></path></svg></a>
+        </div>
+
+        <p class="policy-text">
+            <a href="$" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="$" class="policy-link">Refund policy</a>
+        </p>
+
+
+    </div>
+
+</footer>
+
+<script src="../Sources/script.js"></script>
+    
+</body>
+</html>
