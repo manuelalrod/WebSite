@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Dashboard Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at bottom, #FFFFFF 0%, rgba(186, 173, 232, 0.7) 10%, #8C74E5 25%, #1A1650 50%, #080710 60%, #080710 100%); 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .dashboard {
+      display: flex;
+      gap: 20px;
+    }
+
+    .profile-card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .profile-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .profile-card h3 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .profile-card p {
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+      margin: 0;
+    }
+
+    .cards-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .accounts-card p,
+    .bills-card p {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+
+    .accounts-card button,
+    .bills-card button {
+      background-color: rgba(119, 109, 157, 0.9);
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .accounts-card button:hover,
+    .bills-card button:hover {
+      background-color: #BAADE8;
+    }
+
+    .bills-card .bill-status {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .bills-card .status {
+      display: flex;
+      align-items: center;
+    }
+
+    .bills-card .status span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+
+    .bills-card .status .paid {
+      background-color: green;
+    }
+
+    .bills-card .status .unpaid {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Profile Card -->
+    <div class="card profile-card">
+      <img src="https://i.pinimg.com/736x/50/b9/d0/50b9d098048cafde49632f677d4eed95.jpg" alt="Profile Picture">
+      <h3>My Profile</h3>
+      <p><strong>Name:</strong> Sami Rahman</p>
+      <p><strong>Email:</strong> sami@example.com</p>
+      <p><strong>Phone:</strong> +1-855-999-1234</p>
+    </div>
+
+    <!-- Cards Column -->
+    <div class="cards-column">
+      <!-- Accounts Card -->
+      <div class="card accounts-card">
+        <h3>My xPay Accounts</h3>
+        <p>Active Account: 8547-5800-9256</p>
+        <button>Block Account</button>
+        <p>Blocked Account: 8547-5800-4255</p>
+        <button>Unblock Account</button>
+      </div>
+
+      <!-- Bills Card -->
+      <div class="card bills-card">
+        <h3>My Bills</h3>
+        <div class="bill-status">
+          <div class="status">
+            <span class="paid"></span>
+            <p>Phone Bill</p>
+          </div>
+          <button>Bill Paid</button>
+        </div>
+        <div class="bill-status">
+          <div class="status">
+            <span class="unpaid"></span>
+            <p>Internet Bill</p>
+          </div>
+          <button>Not Paid</button>
+        </div>
+        <div class="bill-status">
+          <div class="status">
+            <span class="paid"></span>
+            <p>House Rent</p>
+          </div>
+          <button>Bill Paid</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
